@@ -4,7 +4,7 @@ Este é um projeto de uma calculadora básica desenvolvida com HTML, CSS e JavaS
 
 ## Demonstração
 
-![Demonstrativo](./img/Demostrativo.png)
+ <img src="./img/Demostrativo.png" alt="Demonstrativo" height="1000px" />
 
 ## Funcionalidades
 
