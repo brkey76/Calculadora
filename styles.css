@@ -1,68 +1,92 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    background: #831111 ;
+body {
+  font-family: "Poppins", sans-serif;
+  background: #831111;
 }
-p{
-    border: cadetblue 1px;
-    background-color: white;
-    width: 400px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    padding:2px 5px;
-    margin: 40vh auto 2vh;
+p {
+  border: cadetblue 1px;
+  background-color: white;
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+  padding: 2px 5px;
+  margin: 20vh auto 2vh;
 }
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.box{
-    width: 400px;
-    height: 200px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
+.box {
+  width: 1200px;
+  height: 600px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
 }
-#operations{
-    display: inline;
-    justify-content: center;
-    align-items: center;
+#operations {
+  display: inline;
+  justify-content: center;
+  align-items: center;
 }
-button{
+button {
+  width: 300px;
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+button:active {
+  background-color: #777;
+}
+#inline {
+  display: flex;
+  width: 1200px;
+  height: 150px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  button {
     width: 100px;
     height: 50px;
     font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #333;
-    border: none;
-    cursor: pointer;
-}
-button:hover{
-    background-color: #555;
-}
-button:active{
-    background-color: #777;
-}
-#inline{
-    display: flex;
-   width: 400px;
+    margin: 0 ;
+  }
+  .box{
+    width: 400px;
+    height: 200px;
+  }
+  p{
+    width: 400px;
     height: 50px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+    font-size: 26px;
+    margin: 40vw auto 2vh;
+  }
+  #inline{
+    margin: 2vh auto;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+  }
 }
